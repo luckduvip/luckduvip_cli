@@ -1,0 +1,43 @@
+{
+	"name": "luckduvip_cli",
+	"description": "The first cli",
+	"version": "1.0.1",
+	"keywords": [
+		"toolkit",
+		"cli"
+  ],
+  "files": [
+	  "lib",
+	  "bin"
+  ],
+  "bin": {
+	  "mycli": "./bin/mycli.js"
+  },
+  "dependencies": {
+	  "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+	  "start":"node index.js"
+  },
+  "engine-strict": true,
+  "engines": {
+	  "node": ">= 0.12"
+  },
+  "licenses": [
+	  {
+		  "type": "MIT"
+	  }
+  ],
+  "main": "index.js",
+  "repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/luckduvip/luckduvip_cli.git"
+  },
+  "author": "luckduvip",
+  "license": "MIT",
+  "bugs": {
+	  "url": "https://github.com/luckduvip/luckduvip_cli/issues"
+  },
+  "homepage": "https://github.com/luckduvip/luckduvip_cli#readme"
+}
